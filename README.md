@@ -16,4 +16,4 @@ Created the structure of the project:
 
 ## Features
 - Each page includes a consistent **navbar** and **footer** as per the project requirements.
-- Navigate to the single pages by clicking the "Learn More" links under the service and team cards.
+- Navigate to the single pages by clicking the "Learn More" links under the service and team pages.
