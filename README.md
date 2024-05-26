@@ -1,17 +1,19 @@
-WEEK 1 HOMEWORK:
+# WEEK 1 HOMEWORK
 
-The project is inspired by this website : https://themeforest.unitedthemes.com/wpversions/brooklyn/demo44/
+## Project Inspiration
+This project is inspired by the [Brooklyn Demo 44](https://themeforest.unitedthemes.com/wpversions/brooklyn/demo44/) website.
 
-Created the structure of the Project :
-  Homepage
-  Aboutus page
-  Services Page and the 
-    Single service page
-  Team page and the 
-    Single team page
-  Contact us page
+## Project Structure
+Created the structure of the project:
 
-Every page has the navbar and footer as asked by the project.
+- **Homepage**
+- **About Us Page**
+- **Services Page**
+  - Single Service Page
+- **Team Page**
+  - Single Team Page
+- **Contact Us Page**
 
-To go to the single page you can click in the learn more part under the Service Cards and the Team Cards.
-
+## Features
+- Each page includes a consistent **navbar** and **footer** as per the project requirements.
+- Navigate to the single pages by clicking the "Learn More" links under the service and team cards.
