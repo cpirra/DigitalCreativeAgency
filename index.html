@@ -5,25 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brooklyn</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/components.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="navbar-container">
-            <a href="index.html" class="logo">Brooklyn.</a>
-            <ul class="nav-links">
-                <li><a href="index.html">WELCOME</a></li>
-                <li><a href="about-us/index.html">ABOUT US</a></li>
-                <li><a href="our-services/index.html">SERVICES</a></li>
-                <li><a href="team/index.html">TEAM</a></li>
-                <li><a href="contact-us/index.html">CONTACT US</a></li>
-            </ul>
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" class="logo">Brooklyn.</a>
+        <ul class="nav-links">
+            <li><a href="index.html">WELCOME</a></li>
+            <li><a href="about-us/index.html">ABOUT US</a></li>
+            <li><a href="our-services/index.html">SERVICES</a></li>
+            <li><a href="team/index.html">TEAM</a></li>
+            <li><a href="contact-us/index.html">CONTACT US</a></li>
+        </ul>
+        <div class="hamburger-menu" id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <!-- Intro Section -->
-    <section class="intro">
+
+    <!-- Header Section -->
+    <section class="header fadeInLeft">
         <div class="container centered-text">
             <h1>We are a Digital Web Agency <br> focused on Vision.</h1>
             <p>Browse our most recent projects below and enjoy our handmade work with love for every detail.</p>
@@ -56,8 +65,7 @@
                 </div>
                 <div class="card" style="background-image: url('photos/our-services/service2.JPG');">
                     <div class="card-content">
-                        <h3>UX,<br> Design &<br> Technology</h3>
-                    </div>
+                        <h3>UX,<br> Design &<br> Technology</ch></div>
                 </div>
                 <div class="card" style="background-image: url('photos/our-services/service3.JPG');">
                     <div class="card-content">
@@ -67,25 +75,25 @@
             </div>
         </div>
     </section>
-<!-- Team Section -->
-<section id="team" class="team section centered-text">
-    <div class="container">
-        <h1>OUR ALL-STAR TEAM</h1>
-        <p>We’ve done it for brands big and small.</p>
-        <div class="card-container">
-            <div class="card">
-                <img src="photos/team/teammate1.JPG" alt="Team Image 1">
+
+    <!-- Team Section -->
+    <section id="team" class="team section centered-text">
+        <div class="container">
+            <h1>OUR ALL-STAR TEAM</h1>
+            <p>We’ve done it for brands big and small.</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="photos/team/teammate1.JPG" alt="Team Image 1">
+                </div>
+                <div class="card">
+                    <img src="photos/team/teammate2.JPG" alt="Team Image 2">
+                </div>
+                <div class="card">
+                    <img src="photos/team/teammate3.JPG" alt="Team Image 3">
+                </div>
             </div>
-            <div class="card">
-                <img src="photos/team/teammate2.JPG" alt="Team Image 2">
-            </div>
-            <div class="card">
-                <img src="photos/team/teammate3.JPG" alt="Team Image 3">
-            </div>
-           
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Contact Us Section -->
     <section id="contact-us" class="contact-us section centered-text">
@@ -93,7 +101,7 @@
             <h1>LET'S MAKE SOMETHING AWESOME <br> TOGETHER</h1>
             <p>Please don’t hesitate in contacting us with any question you may have.<br>
             We will get back to you as soon as possible.</p>
-            <form action="#" method="post">
+            <form id="contactForm">
                 <label for="name">Your Name (required)</label>
                 <input type="text" id="name" name="name" required>
 
@@ -140,5 +148,7 @@
             <p>&copy; 2011 - 2019 UNITED THEMES™</p>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
