@@ -1,5 +1,5 @@
 /* Button Component */
-button {
+.form-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,14 +18,14 @@ button {
     text-shadow: 0 1px #333; /* Adjusted text shadow for better contrast */
 }
 
-button:hover {
+.form-button:hover {
     box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
 }
 
-button:active {
+.form-button:active {
     box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
 }
 
-button:focus {
+.form-button:focus {
     box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
 }

@@ -43,6 +43,7 @@ h1 {
     font-size: var(--font-size-h1);
     margin-bottom: var(--spacing-margin);
     text-align: left;
+    
 }
 
 p {
@@ -51,11 +52,12 @@ p {
     text-align: left;
 }
 
-.centered-text h1,
+
+/* .centered-text h1,
 .centered-text h2,
 .centered-text p {
     padding-left: 140px;
-}
+} */
 
 /* Navbar Styles */
 .navbar {
@@ -165,12 +167,6 @@ p {
         display: flex;
     }
 
-    .centered-text h1,
-    .centered-text h2,
-    .centered-text p {
-        padding-left: 0;
-        text-align: center;
-    }
 
     .card-container {
         display: flex;
@@ -206,9 +202,19 @@ p {
     padding-left: 1em;
 }
 
+.section h1,
+.section p {
+    padding-left: 140px;
+}
+
 /* Header Styles */
 .header {
     padding: var(--spacing-section-padding) 0;
+}
+
+.header h1,
+.header p {
+    padding-left: 140px;
 }
 
 /* Service Content */
@@ -237,6 +243,7 @@ p {
     display: flex;
     justify-content: center;
     gap: 3em;
+    flex-wrap: wrap;
 }
 
 /* Card Styles */
@@ -321,6 +328,20 @@ p {
     margin-right: 0.5em;
 }
 
+.error-message {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 0.5em;
+}
+
+.success-message {
+    color: green;
+    font-size: 1em;
+    margin-top: 1em;
+    display: none;
+    text-align: center;
+}
+
 /* Teammate Section Styles */
 .teammate {
     text-align: left;
@@ -347,6 +368,48 @@ p {
 .teammate-details .details {
     max-width: 600px;
 }
+
+/* Center Load More Button */
+.team .load-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team .load-more {
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    cursor: pointer;
+}
+
+.team .load-more:hover {
+    background-color: var(--color-secondary);
+}
+
+/* back to top Style */
+.back-to-top {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #555; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+}
+
+.back-to-top:hover {
+    background-color: #333; 
+}
+
 
 /* Footer Styles */
 .footer {
